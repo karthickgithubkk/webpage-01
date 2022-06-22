@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, rgba(194, 145, 145, 0.1), rgb(115, 178, 151)), url(./image/pexels-arist-creathrive-2253573.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.redbox {
+    border: 2px solid red;background-color: red;border-radius: 4px;padding: 2px;
+}
+.logo img {
+    width: 50px;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(24, 24, 82));
+   
+   border: blue; border-radius: 2px;
+}
+nav {
+         display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 30px;
+     padding-left: 8%;
+     padding-right: 8%;
+     word-spacing: 10px;
+   
+
+       }
+      .list {
+        position: fixed;
+        margin-left: 30%;
+        z-index: 5;
+      }
+      .logo {
+        position: fixed;
+        z-index: 5;
+      }
+        
+       
+       
+       .list a:hover {
+           color: red;
+       }
+       .hero {
+        margin: 4rem 8rem;
+        color: azure;
+       }
+       .btn-one {
+        display: block;
+        margin-left: 4.5rem;
+        margin-top: 6px;
+        border: 2px solid red;padding: 4px;
+        border-radius: 2px;background-color: red;color: rgb(241, 236, 236);
+       }
+       div .footer {
+        margin-top: 15rem;
+        margin-left: 4rem;
+        color: beige;
+       }
+       div .footer h2 {
+        color: rgb(238, 223, 223);
+       }
+       div .lcon-one {
+        position: absolute;
+        right: 45% ;
+        bottom:22% ;
+          
+       }
+       .social {
+        position: absolute;
+        right: 30% ;
+        bottom: 22% ;
+        
+       }
+       .main {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-color: lightblue;
+       }
+div .about {
+    width: 40%;padding-top: 10%;
+}
+
+.one {
+    width: 200px;
+    height: 100px;
+    background-color: bisque; display: inline-block;
+    border-radius: 4px;
+    text-align: center; margin-bottom: 4px;
+}
+.two {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(243, 28, 125); display: inline-block;
+    border-radius: 4px;  text-align: center; margin-bottom: 4px;
+}
+
+
+.three {
+    width: 200px;
+    height: 100px; background-color: rgb(144, 98, 42); display: inline-block;
+    border-radius: 4px;  text-align: center;
+}
+
+.four {
+    width: 200px;
+    height: 100px;background-color: rgb(45, 155, 172); display: inline-block;
+    border-radius: 4px;  text-align: center;
+}
+.dol {
+    float: left;
+    
+}
+
+.box {
+    position: absolute;
+    right: 5%; bottom: 50%;
+    
+}
+.exp-head {
+    width: 100%;
+    height: 100vh;
+    padding-top: 4%;
+    position: relative;
+    background-color: rgb(32, 190, 129);
+    
+   }
+   .exp-head p img {
+    width: 200px; height: 180px;
+   }
+  
+   .rel-one {
+    position: relative;
+    top: 200px;
+    left: 10px;
+  
+
+    
+}
+.img-one {
+    position: absolute;
+    bottom: 40px;
+    ;
+}
+.rel-two {
+    position: relative;
+    top: 160px;
+    left: 20%;
+
+   
+}
+.img-two {
+    position: absolute;
+    bottom: 50px;
+    
+}
+.rel-three {
+    position: relative;
+    top: 120px;
+    left: 40%;
+
+   
+}
+.img-three {
+    position: absolute;
+    bottom: 50px;
+    
+}
+.test {
+    width: 100%;
+    height: 100vh;
+    padding-top: 4%;
+    position: relative;
+    background-color: antiquewhite;
+}
+.john {
+   
+    background-image: url(./image/john.jfif);
+    background-repeat: no-repeat;
+    width: 200px;height: 200px;
+    border-radius: 100%;
+    background-size: cover;
+    margin-top: 10px;
+}
+.para {
+   position: absolute ;
+   top: 20%;
+    width: 80%;
+   right: 4%;
+}
+.blogs {
+    width: 100%;
+    height: 100vh;
+    padding-top: 4%;background-color: lightcyan;
+}
+.blog {
+    width: 350px;
+    height: 300px;
+     border-radius: 3%;
+     float: left;
+     display: block; margin-right: 1rem;
+     
+     
+    }
+    .blog-ab {
+        clear: right;  width: 80%;
+        margin-top: 8px; 
+       
+    }
+.button-bl {
+    border: 2px solid purple;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 1rem;
+    padding-left: 10px;
+    background-color: blueviolet;
+}
+.font {
+    display: block;
+    margin: 1rem;
+}
+.cont-detail {
+    width: 100%;
+    height: 100vh;
+    position: relative;padding-top: 5%; background-color: rgb(221, 242, 241);
+}
+.card {
+    width: 40%;
+    margin-left: 3rem; margin-bottom: 2rem;
+}
+.card h1,h3 {
+    margin-bottom: 1rem;
+ 
+}
+.card-a {
+    width: 40%;
+    position: absolute;
+    right: 3%; top: 8%;
+
+}
+
+
+ @media screen  and (min-width:200px){
+    width: 100%;
+    height: 100vh;
+   
+ }
